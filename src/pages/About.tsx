@@ -14,17 +14,17 @@ const skills = [
 
 const milestones = [
   {
-    year: "2019",
-    event: "Founded DevCraft with a vision to transform businesses digitally",
-  },
-  { year: "2020", event: "Completed first major enterprise project" },
-  {
     year: "2021",
-    event: "Expanded team and launched API development services",
+    event: "Two developer friends came together to start a Tech Company",
   },
-  { year: "2022", event: "Started development of proprietary ERP solution" },
-  { year: "2023", event: "Reached 50+ successful project deliveries" },
-  { year: "2024", event: "ERP product entering beta phase" },
+  { year: "2022", event: "Completed first major enterprise project" },
+  {
+    year: "2023",
+    event: "Expanded team and delivered muliple successful projects",
+  },
+  { year: "2024", event: "Delivered a successful project to the government" },
+  { year: "2025", event: "ERP product entering beta phase" },
+  { year: "2026", event: "Building our own Product..." },
 ];
 
 const About = () => {

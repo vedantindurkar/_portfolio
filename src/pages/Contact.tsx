@@ -34,14 +34,14 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "hello@devcraft.com",
-    href: "mailto:hello@devcraft.com",
+    value: "indurkarvedant1@gmail.com",
+    href: "mailto:indurkarvedant1@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+917249129886",
+    href: "tel:+917249129886",
   },
   {
     icon: MapPin,
@@ -235,7 +235,7 @@ const Contact = () => {
                           name="name"
                           value={formData.name}
                           onChange={handleChange}
-                          placeholder="John Doe"
+                          placeholder="Christian Smith"
                           className={`bg-secondary border-border ${
                             errors.name ? "border-destructive" : ""
                           }`}
@@ -259,7 +259,7 @@ const Contact = () => {
                           type="email"
                           value={formData.email}
                           onChange={handleChange}
-                          placeholder="john@example.com"
+                          placeholder="chris@example.com"
                           className={`bg-secondary border-border ${
                             errors.email ? "border-destructive" : ""
                           }`}
